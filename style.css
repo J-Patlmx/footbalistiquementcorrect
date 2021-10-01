@@ -1,0 +1,27 @@
+:root {
+    --ecriture: black;
+    --background: url(omerde.png)no-repeat center;
+}
+
+body {
+    padding: 300px;
+    margin: auto;
+    box-sizing: border-box;
+    background: var(--background);
+    max-width: 1920px;
+
+}
+
+.changement {
+    border: 2px solid grey;
+    color: blue;
+    width: 8vw;
+    margin-left: 2%;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--ecriture);
+}
